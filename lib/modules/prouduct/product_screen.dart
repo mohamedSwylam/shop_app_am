@@ -113,7 +113,7 @@ class ProductScreen extends StatelessWidget {
                 physics: NeverScrollableScrollPhysics(),
                 crossAxisSpacing: 1.0,
                 mainAxisSpacing: 1.0,
-                childAspectRatio: 1 / 1.72,
+                childAspectRatio: 2 / 1.72,
                 crossAxisCount: 2,
                 children: List.generate(
                     model.data.products.length,

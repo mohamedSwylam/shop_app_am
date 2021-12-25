@@ -21,7 +21,7 @@ class ShopLoginCubit extends Cubit<ShopLoginStates> {
     DioHelper.postData(
       url: LOGIN,
       data: {
-        'email':email,
+        'to':email,
         'password':password,
       },
     ).then((value) {
